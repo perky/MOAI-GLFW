@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E68ED8D615E06DAF0013F6C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED88C15E06C290013F6C2 /* Cocoa.framework */; };
+		E68ED8DD15E06E240013F6C2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8DB15E06E180013F6C2 /* OpenGL.framework */; };
+		E68ED8EA15E070F50013F6C2 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8E915E070F50013F6C2 /* libcrypto.dylib */; };
+		E68ED8EC15E0710C0013F6C2 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8EB15E0710C0013F6C2 /* libssl.dylib */; };
+		E68ED8EE15E071170013F6C2 /* libSystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8ED15E071160013F6C2 /* libSystem.dylib */; };
+		E68ED8F015E071200013F6C2 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8EF15E071200013F6C2 /* libz.1.1.3.dylib */; };
+		E68ED8F715E07E880013F6C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8F615E07E880013F6C2 /* Foundation.framework */; };
+		E68ED8F915E07E8F0013F6C2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8F815E07E8F0013F6C2 /* IOKit.framework */; };
+		E68ED8FB15E07E9D0013F6C2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8FA15E07E9D0013F6C2 /* CoreFoundation.framework */; };
+		E68ED8FD15E085440013F6C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8FC15E085440013F6C2 /* AudioToolbox.framework */; };
+		E68ED8FF15E085760013F6C2 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED8FE15E085760013F6C2 /* CoreAudio.framework */; };
+		E68ED90115E0857E0013F6C2 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68ED90015E0857E0013F6C2 /* AudioUnit.framework */; };
+		E6D0402115E1232500F1EF09 /* libglfw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D0401F15E1232500F1EF09 /* libglfw.a */; };
+		E6D0402215E1232500F1EF09 /* libglfw.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D0402015E1232500F1EF09 /* libglfw.dylib */; };
+		E6D0402815E1232E00F1EF09 /* libmoai-osx-3rdparty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D0402315E1232E00F1EF09 /* libmoai-osx-3rdparty.a */; };
+		E6D0402915E1232E00F1EF09 /* libmoai-osx-luaext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D0402415E1232E00F1EF09 /* libmoai-osx-luaext.a */; };
+		E6D0402A15E1232E00F1EF09 /* libmoai-osx-untz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D0402515E1232E00F1EF09 /* libmoai-osx-untz.a */; };
+		E6D0402B15E1232E00F1EF09 /* libmoai-osx-zlcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D0402615E1232E00F1EF09 /* libmoai-osx-zlcore.a */; };
+		E6D0402C15E1232E00F1EF09 /* libmoai-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D0402715E1232E00F1EF09 /* libmoai-osx.a */; };
+		E6D0402E15E1244900F1EF09 /* libglfw.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E6D0402015E1232500F1EF09 /* libglfw.dylib */; };
+		E6D0404215E1418C00F1EF09 /* GlfwHost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6D0403D15E1418C00F1EF09 /* GlfwHost.cpp */; };
+		E6D0404315E1418C00F1EF09 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6D0404015E1418C00F1EF09 /* main.cpp */; };
+		E6D0404515E141F900F1EF09 /* GLFWManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6D0404415E141F900F1EF09 /* GLFWManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E68ED8C615E06D110013F6C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				E6D0402E15E1244900F1EF09 /* libglfw.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E68ED88C15E06C290013F6C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E68ED8C815E06D110013F6C2 /* MOAI-GLFW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MOAI-GLFW"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68ED8DB15E06E180013F6C2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		E68ED8E915E070F50013F6C2 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
+		E68ED8EB15E0710C0013F6C2 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libssl.dylib; sourceTree = DEVELOPER_DIR; };
+		E68ED8ED15E071160013F6C2 /* libSystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libSystem.dylib; sourceTree = DEVELOPER_DIR; };
+		E68ED8EF15E071200013F6C2 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libz.1.1.3.dylib; sourceTree = DEVELOPER_DIR; };
+		E68ED8F615E07E880013F6C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E68ED8F815E07E8F0013F6C2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		E68ED8FA15E07E9D0013F6C2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		E68ED8FC15E085440013F6C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		E68ED8FE15E085760013F6C2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		E68ED90015E0857E0013F6C2 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioUnit.framework; sourceTree = DEVELOPER_DIR; };
+		E6D0401F15E1232500F1EF09 /* libglfw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw.a; path = libs/libglfw.a; sourceTree = "<group>"; };
+		E6D0402015E1232500F1EF09 /* libglfw.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.dylib; path = libs/libglfw.dylib; sourceTree = "<group>"; };
+		E6D0402315E1232E00F1EF09 /* libmoai-osx-3rdparty.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmoai-osx-3rdparty.a"; path = "libs/libmoai-osx-3rdparty.a"; sourceTree = "<group>"; };
+		E6D0402415E1232E00F1EF09 /* libmoai-osx-luaext.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmoai-osx-luaext.a"; path = "libs/libmoai-osx-luaext.a"; sourceTree = "<group>"; };
+		E6D0402515E1232E00F1EF09 /* libmoai-osx-untz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmoai-osx-untz.a"; path = "libs/libmoai-osx-untz.a"; sourceTree = "<group>"; };
+		E6D0402615E1232E00F1EF09 /* libmoai-osx-zlcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmoai-osx-zlcore.a"; path = "libs/libmoai-osx-zlcore.a"; sourceTree = "<group>"; };
+		E6D0402715E1232E00F1EF09 /* libmoai-osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmoai-osx.a"; path = "libs/libmoai-osx.a"; sourceTree = "<group>"; };
+		E6D0403D15E1418C00F1EF09 /* GlfwHost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlfwHost.cpp; sourceTree = "<group>"; };
+		E6D0403E15E1418C00F1EF09 /* GlfwHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlfwHost.h; sourceTree = "<group>"; };
+		E6D0403F15E1418C00F1EF09 /* GLFWManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFWManager.h; sourceTree = "<group>"; };
+		E6D0404015E1418C00F1EF09 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E6D0404415E141F900F1EF09 /* GLFWManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLFWManager.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E68ED8C515E06D110013F6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68ED90115E0857E0013F6C2 /* AudioUnit.framework in Frameworks */,
+				E68ED8FF15E085760013F6C2 /* CoreAudio.framework in Frameworks */,
+				E68ED8FD15E085440013F6C2 /* AudioToolbox.framework in Frameworks */,
+				E68ED8FB15E07E9D0013F6C2 /* CoreFoundation.framework in Frameworks */,
+				E68ED8F915E07E8F0013F6C2 /* IOKit.framework in Frameworks */,
+				E68ED8F715E07E880013F6C2 /* Foundation.framework in Frameworks */,
+				E68ED8F015E071200013F6C2 /* libz.1.1.3.dylib in Frameworks */,
+				E68ED8EE15E071170013F6C2 /* libSystem.dylib in Frameworks */,
+				E68ED8EC15E0710C0013F6C2 /* libssl.dylib in Frameworks */,
+				E68ED8EA15E070F50013F6C2 /* libcrypto.dylib in Frameworks */,
+				E68ED8DD15E06E240013F6C2 /* OpenGL.framework in Frameworks */,
+				E68ED8D615E06DAF0013F6C2 /* Cocoa.framework in Frameworks */,
+				E6D0402115E1232500F1EF09 /* libglfw.a in Frameworks */,
+				E6D0402215E1232500F1EF09 /* libglfw.dylib in Frameworks */,
+				E6D0402815E1232E00F1EF09 /* libmoai-osx-3rdparty.a in Frameworks */,
+				E6D0402915E1232E00F1EF09 /* libmoai-osx-luaext.a in Frameworks */,
+				E6D0402A15E1232E00F1EF09 /* libmoai-osx-untz.a in Frameworks */,
+				E6D0402B15E1232E00F1EF09 /* libmoai-osx-zlcore.a in Frameworks */,
+				E6D0402C15E1232E00F1EF09 /* libmoai-osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E68ED87B15E06C0F0013F6C2 = {
+			isa = PBXGroup;
+			children = (
+				E68ED88B15E06C290013F6C2 /* Frameworks */,
+				E68ED88915E06C290013F6C2 /* Products */,
+				E6D0403C15E1418C00F1EF09 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		E68ED88915E06C290013F6C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E68ED8C815E06D110013F6C2 /* MOAI-GLFW */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E68ED88B15E06C290013F6C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E68ED8DE15E0709B0013F6C2 /* moai */,
+				E6D0401E15E1231300F1EF09 /* GLFW */,
+				E68ED90015E0857E0013F6C2 /* AudioUnit.framework */,
+				E68ED8FE15E085760013F6C2 /* CoreAudio.framework */,
+				E68ED8FC15E085440013F6C2 /* AudioToolbox.framework */,
+				E68ED8FA15E07E9D0013F6C2 /* CoreFoundation.framework */,
+				E68ED8F815E07E8F0013F6C2 /* IOKit.framework */,
+				E68ED8F615E07E880013F6C2 /* Foundation.framework */,
+				E68ED8EF15E071200013F6C2 /* libz.1.1.3.dylib */,
+				E68ED8ED15E071160013F6C2 /* libSystem.dylib */,
+				E68ED8EB15E0710C0013F6C2 /* libssl.dylib */,
+				E68ED8E915E070F50013F6C2 /* libcrypto.dylib */,
+				E68ED8DB15E06E180013F6C2 /* OpenGL.framework */,
+				E68ED88C15E06C290013F6C2 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E68ED8DE15E0709B0013F6C2 /* moai */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0402315E1232E00F1EF09 /* libmoai-osx-3rdparty.a */,
+				E6D0402415E1232E00F1EF09 /* libmoai-osx-luaext.a */,
+				E6D0402515E1232E00F1EF09 /* libmoai-osx-untz.a */,
+				E6D0402615E1232E00F1EF09 /* libmoai-osx-zlcore.a */,
+				E6D0402715E1232E00F1EF09 /* libmoai-osx.a */,
+			);
+			name = moai;
+			sourceTree = "<group>";
+		};
+		E6D0401E15E1231300F1EF09 /* GLFW */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0401F15E1232500F1EF09 /* libglfw.a */,
+				E6D0402015E1232500F1EF09 /* libglfw.dylib */,
+			);
+			name = GLFW;
+			sourceTree = "<group>";
+		};
+		E6D0403C15E1418C00F1EF09 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0403D15E1418C00F1EF09 /* GlfwHost.cpp */,
+				E6D0403E15E1418C00F1EF09 /* GlfwHost.h */,
+				E6D0404015E1418C00F1EF09 /* main.cpp */,
+				E6D0404415E141F900F1EF09 /* GLFWManager.cpp */,
+				E6D0403F15E1418C00F1EF09 /* GLFWManager.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E68ED8C715E06D110013F6C2 /* MOAI-GLFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68ED8CF15E06D110013F6C2 /* Build configuration list for PBXNativeTarget "MOAI-GLFW" */;
+			buildPhases = (
+				E68ED8C415E06D110013F6C2 /* Sources */,
+				E68ED8C515E06D110013F6C2 /* Frameworks */,
+				E68ED8C615E06D110013F6C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MOAI-GLFW";
+			productName = "MOAI-GLFW";
+			productReference = E68ED8C815E06D110013F6C2 /* MOAI-GLFW */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E68ED87D15E06C0F0013F6C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Locofilm;
+			};
+			buildConfigurationList = E68ED88015E06C0F0013F6C2 /* Build configuration list for PBXProject "MOAI-GLFW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E68ED87B15E06C0F0013F6C2;
+			productRefGroup = E68ED88915E06C290013F6C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E68ED8C715E06D110013F6C2 /* MOAI-GLFW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E68ED8C415E06D110013F6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D0404215E1418C00F1EF09 /* GlfwHost.cpp in Sources */,
+				E6D0404315E1418C00F1EF09 /* main.cpp in Sources */,
+				E6D0404515E141F900F1EF09 /* GLFWManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E68ED88215E06C0F0013F6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		E68ED88315E06C0F0013F6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Release;
+		};
+		E68ED8D015E06D110013F6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../include\"/**";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/libglfw.dylib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		E68ED8D115E06D110013F6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../include\"/**";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/libglfw.dylib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E68ED88015E06C0F0013F6C2 /* Build configuration list for PBXProject "MOAI-GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68ED88215E06C0F0013F6C2 /* Debug */,
+				E68ED88315E06C0F0013F6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68ED8CF15E06D110013F6C2 /* Build configuration list for PBXNativeTarget "MOAI-GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68ED8D015E06D110013F6C2 /* Debug */,
+				E68ED8D115E06D110013F6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E68ED87D15E06C0F0013F6C2 /* Project object */;
+}
